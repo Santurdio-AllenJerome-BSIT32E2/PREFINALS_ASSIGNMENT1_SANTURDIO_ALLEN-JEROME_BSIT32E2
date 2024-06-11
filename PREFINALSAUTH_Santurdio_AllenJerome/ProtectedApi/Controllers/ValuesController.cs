@@ -11,20 +11,19 @@ namespace ProtectedApi.Controllers
         [Authorize]
         public IActionResult Get()
         {
-            // Replace with your own user information and fun facts
+            
             var userInfo = new
             {
-                Name = "John Doe",
-                Section = "Section A",
-                Course = "Computer Science"
+                Name = "Allen Jerome Santurdio",
+                Section = "BSIT32E2",
+                Course = "Infortmation Technology"
             };
 
             var funFacts = new[]
             {
-                "I love programming!",
+                "I hate programming!",
                 "I enjoy playing video games.",
-                "I'm a big fan of sci-fi movies.",
-                // Add more fun facts here
+                "I like watching anime/movies.",
             };
 
             return Ok(new { UserInfo = userInfo, FunFacts = funFacts });
