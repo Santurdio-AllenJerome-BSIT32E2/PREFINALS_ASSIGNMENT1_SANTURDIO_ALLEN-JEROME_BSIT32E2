@@ -14,16 +14,16 @@ namespace ProtectedApi.Controllers
             
             var userInfo = new
             {
-                Name = "Allen Jerome Santurdio",
+                Name = "Justine Ryu S. Perez",
                 Section = "BSIT32E2",
                 Course = "Infortmation Technology"
             };
 
             var funFacts = new[]
             {
-                "I hate programming!",
-                "I enjoy playing video games.",
-                "I like watching anime/movies.",
+                "I Eat.",
+                "I Sleep.",
+                "I Pray.",
             };
 
             return Ok(new { UserInfo = userInfo, FunFacts = funFacts });
